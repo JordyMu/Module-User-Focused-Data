@@ -23,3 +23,13 @@ body{
     width: 800px;
     margin: 5px auto 20px auto;
 }
+.box-git{
+    margin-left: -280px;
+    margin-bottom: 1px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
