@@ -24,7 +24,7 @@ body{
     margin: 5px auto 20px auto;
 }
 .box-git{
-    margin-left: -280px;
+    margin-left: -255px;
     margin-bottom: 1px;
 }
 h2{
@@ -32,4 +32,18 @@ h2{
 }
 p{
     font-size: 20px;
+}
+.btn{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 690px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
 }
