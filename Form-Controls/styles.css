@@ -70,3 +70,20 @@ label{
     justify-content: center;
     padding: 10px 0;
 }
+
+/* DeliveryDate */
+.d-date{
+    margin-left: 50px;
+    margin: 10px;
+    padding: 10px 0;
+}
+#deliveryDate{
+    margin-left: 25px;
+    padding: 8px 0;
+}
+input[type="date"],select{
+    padding: 0.5rem;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 20px;
+}
