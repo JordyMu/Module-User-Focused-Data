@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h1{
+    margin-top: 40px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    font-size: 60px;
+}
+form{
+    display: block;
+    flex-direction: column;
+    width: 600px;
+    background: #f2f2f2;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin: 50px auto 50px  auto;
+   
+}
+.label-name{
+    border-radius: 5px;
+    padding: 18px 20px;
+    margin: 8px 0;
+    background: #f2f2f2;
+    
+}
+input[type=text],
+input[type=date],select{
+    width: 92%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid #cccccc; 
+}
+label{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Email  */
+
+.label-email{
+    padding: 18px 20px;
+    margin: 8px 0;
+    background: #f2f2f2;
+}
+/* T-shirt size */
+.tshirt{
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+}
+#size{
+    display: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 700px;
+    margin-left:25px;
+}
+/*  T-Shirt color */
+.radio{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+/* DeliveryDate */
+.d-date{
+    margin-left: 50px;
+    margin: 10px;
+    padding: 10px 0;
+}
+#deliveryDate{
+    margin-left: 25px;
+    padding: 8px 0;
+}
+input[type="date"],select{
+    padding: 0.5rem;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+/* Button */
+button{
+    width: 92%;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 4px;
+    background:#0423d5;
+    margin: 8px 26px 20px;
+    padding: 14px 20px;
+    display: center;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #F77F00;
+}
+h2{
+    text-align: center;
+}
